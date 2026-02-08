@@ -31,7 +31,9 @@
       "permissions": [
         "CAMERA",
         "INTERNET",
-        "VIBRATE"
+        "VIBRATE",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {
@@ -43,12 +45,11 @@
         {
           "cameraPermission": "SafeScan needs camera access to scan QR codes and protect you from phishing threats."
         }
-      ],
-      "expo-barcode-scanner"
+      ]
     ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "744a4067-8ed4-40aa-bf84-7ea229a42f26"
       }
     }
   }
